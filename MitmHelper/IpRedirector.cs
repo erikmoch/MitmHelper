@@ -27,8 +27,6 @@ namespace MitmHelper
                 ProcessStartInfo start = new ProcessStartInfo
                 {
                     FileName = "cmd.exe",
-                    RedirectStandardInput = true,
-                    UseShellExecute = false,
                     CreateNoWindow = true,
                     Arguments = string.Join(" ", command)
                 };
